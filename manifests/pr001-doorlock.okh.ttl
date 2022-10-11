@@ -1,0 +1,31 @@
+@prefix : <https://field-ready-projects.openknowhow.org/pr001/UNVERSIONED/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "\"PR001 - Door Locks \"" ;
+    okh:documentationLanguage "En-US" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "An easy to use portable lock, no tools needed" ;
+    okh:licensor "Field Ready" ;
+    okh:repo <https://field-ready-projects.openknowhow.org/pr001> ;
+    okh:repoHost "field-ready-projects.openknowhow.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.1> ;
+    okh:technologyReadinessLevel otrl:Otrl3 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "UNVERSIONED" ;
+    okh:versionOf <https://field-ready-projects.openknowhow.org/pr001> .
+
+:PR001_CAD_BODY a okh:Part ;
+    rdfs:label "PR001_CAD_BODY" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Field Ready" ;
+    okh:source :PR001_CAD_BODY_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
+
+:PR001_CAD_BODY_source a okh:SourceFile ;
+    rdfs:label "Source File of PR001_CAD_BODY" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://dl.airtable.com/.attachments/b4ba9cb48fe64d511531b61d507ac9a5/4791ff68/PR001_CAD_Body.SLDPRT> ;
+    okh:permaURL <https://dl.airtable.com/.attachments/b4ba9cb48fe64d511531b61d507ac9a5/4791ff68/PR001_CAD_Body.SLDPRT> .
