@@ -8,6 +8,7 @@
     okh:documentationLanguage "En-US" ;
     okh:documentationReadinessLevel otrl:Odrl1 ;
     okh:function "An easy to use portable lock, no tools needed" ;
+    okh:hasComponent :PR001_CAD_BODY,
     okh:licensor "Field Ready" ;
     okh:repo <https://field-ready-projects.openknowhow.org/pr001> ;
     okh:repoHost "field-ready-projects.openknowhow.org" ;
